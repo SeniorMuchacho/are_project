@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "477195592887",
+    "firebase_url": "https://area-2021.firebaseio.com",
+    "project_id": "area-2021",
+    "storage_bucket": "area-2021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477195592887:android:85949c0fe2f906b7",
+        "android_client_info": {
+          "package_name": "com.area"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "477195592887-0mi9hrkehcm12iu1hqi2k8qvjrcc6oic.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.area",
+            "certificate_hash": "a7d88f9bf158747e49878def3c7ce6d50755ffa1"
+          }
+        },
+        {
+          "client_id": "477195592887-9k8jtqdos6nac44qrbg1nic613ppdest.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEAwUpD7ez57eiPjW21H-hk4CetUOxcOw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "477195592887-9k8jtqdos6nac44qrbg1nic613ppdest.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

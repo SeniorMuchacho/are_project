@@ -1,0 +1,100 @@
+{
+    "client": {
+        "host": "10.41.171.6"
+    },
+    "server": {
+        "current_time": 1531680780,
+        "services": [{
+                "name": "weather",
+                "widgets": [{
+                    "name": "cities_temperature",
+                    "description": "Affichage de la temperature pour une ville",
+                    "params": [{
+                        "name": "city",
+                        "type": "string"
+                    }]
+                }]
+            },
+            {
+                "name": "google-search",
+                "widgets": [{
+                        "name": "google search",
+                        "description": "Faire une recherche google",
+                        "params": [{
+                            "name": "search",
+                            "type": "string"
+                        }]
+                    }
+                ]
+            },
+            {
+                "name": "facebook",
+                "widgets": [{
+                        "name": "facebook_like",
+                        "description": "Affichage de la page Epitech à liker",
+                        "params": [{
+                            "name": "like",
+                            "type": "button"
+                        }]
+                    }
+                ]
+            },
+            {
+                "name": "instagram",
+                "widgets": [{
+                        "name": "insta_like",
+                        "description": "Affichage de la page Epitech à liker",
+                        "params": [{
+                            "name": "like",
+                            "type": "button"
+                        }]
+                    }
+                ]
+            },
+            {
+                "name": "youtube",
+                "widgets": [{
+                        "name": "youtube_epitech",
+                        "description": "Affichage de la vidéo de campus Epitech Paris",
+                        "params": [{
+                            "name": "play",
+                            "type": "button"
+                        }]
+                    }
+                ]
+            },
+            {
+                "name": "youtube_slider",
+                "widgets": [{
+                        "name": "youtube slider",
+                        "description": "Affichage d'un slider sur l'artiste Avicii",
+                        "params": [{
+                            "name": "link",
+                            "type": "button"
+                        }]
+                    }
+                ]
+            },
+            {
+                "name": "Spotify",
+                "widgets": [{
+                        "name": "spotify_album",
+                        "description": "Affichage et écoute de musiques d'un album",
+                        "params": [{
+                            "name": "link",
+                            "type": "string"
+                        }]
+                    },
+                    {
+                        "name": "artist",
+                        "description": "Affichage d'un bouton de follow d'un artiste",
+                        "params": [{
+                            "name": "like",
+                            "type": "string"
+                        }]
+                    }
+                ]
+            }
+        ]
+    }
+}

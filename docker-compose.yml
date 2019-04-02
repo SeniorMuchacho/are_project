@@ -1,0 +1,44 @@
+version: "3.3" 
+
+services:
+  mongo:
+    image: mongo:latest
+    container_name: "mongo"
+    volumes:
+      - db_data:/var/lib/mongo/data/
+    ports:
+      - 27017:27017
+  server:
+    container_name: "Server"
+    build: Server/.
+    depends_on:
+      - mongo
+    ports:
+      - 8080:8080
+
+  client_web:
+    container_name: "web_client"
+    ports:
+      - 8081:8081
+    depends_on:
+      - server
+      - mongo
+    build: web_client/.
+    volumes:
+      - apk:/var/www/:ro
+
+  client_mobile:
+    container_name: "Mobile_application"
+    ports:
+      - 19000:19000
+      - 19001:19001
+    volumes:
+      - apk:/usr/src/app/android/app/build/outputs/apk/:rw
+    depends_on:
+      - server
+      - mongo
+    build: Mobile_application/.
+
+volumes:
+  db_data:
+  apk:
